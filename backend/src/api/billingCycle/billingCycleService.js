@@ -21,4 +21,4 @@ BillingCycle.route('get', (req, res, next) => {
 
 })
 
-modules.exports = BillingCycle
+module.exports = BillingCycle
