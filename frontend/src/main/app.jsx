@@ -1,0 +1,13 @@
+
+import '../common/template/dependencies' 
+import React from 'react'
+
+export default props => (
+    <div className='wrapper'>
+        <h1>App </h1>
+    </div>
+)
+
+
+
+                /// FAZER COMMIT E PUSH 03-02-21
