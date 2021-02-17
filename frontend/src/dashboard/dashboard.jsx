@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import {bindActionCreators} from 'redux'
+import {bindActionCreators} from 'redux'//
 
 import {getSummary} from './dashboardActions'
 import ContentHeader from '../common/template/contentHeader'
