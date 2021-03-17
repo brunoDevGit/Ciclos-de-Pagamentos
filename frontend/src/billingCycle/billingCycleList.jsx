@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { bindActionsCreators } from 'redux'
+import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 import { getList } from './billingCycleActions'
 
@@ -45,7 +45,7 @@ const mapStateToProps = state =>
     ({ list: state.billingCycle.list })
 
 const mapDispatchToProps = dispatch =>
-    bindActionsCreators({ getList }, dispatch)
+    bindActionCreators({ getList }, dispatch)
 
 export default connect(
     mapStateToProps,
